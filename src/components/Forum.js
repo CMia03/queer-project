@@ -1,14 +1,14 @@
-import React from 'react'
-import Navbar from '../pages/Navbar'
-import Body_Forum from '../pages/Body_Forum'
+import React from "react";
+import Navbar from "../pages/Navbar";
+import BodyForum from "../pages/Body_Forum";
 
 function Forum() {
   return (
     <div>
       <Navbar />
-      <Body_Forum />
-      </div>
-  )
+      <BodyForum />
+    </div>
+  );
 }
 
-export default Forum
+export default Forum;

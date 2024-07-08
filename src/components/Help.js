@@ -1,14 +1,14 @@
-import React from 'react'
-import Navbar from '../pages/Navbar'
-import Body_Help from '../pages/Body_Help'
+import React from "react";
+import Navbar from "../pages/Navbar";
+import BodyHelp from "../pages/Body_Help";
 
 function Help() {
   return (
     <div>
       <Navbar />
-      <Body_Help />
-      </div>
-  )
+      <BodyHelp />
+    </div>
+  );
 }
 
-export default Help
+export default Help;
