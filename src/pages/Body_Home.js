@@ -33,9 +33,9 @@ function Body_Home() {
           <i className="bi-arrow-right"></i>
         </button>
       </main> */}
-      <button id="top" onClick={handleTop}>
+      {/* <button id="top" onClick={handleTop}>
         <i className={scrollTops ? "bi-chevron-up" : "bi-chevron-down"}></i>
-      </button>
+      </button> */}
     </div>
   );
 }
