@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
 import { NavLink } from 'react-router-dom'
 
 function Body_Home() {
-  const [scrollTops, setScrollTops] = useState(false);
+  // const [scrollTops, setScrollTops] = useState(false);
 
-  const handleTop = () => {
-    setScrollTops(!scrollTops);
-    // if(window.scroll(0, 0)){
-    window.scroll(0, 0);
-    // }
-  };
+  // const handleTop = () => {
+  //   setScrollTops(!scrollTops);
+  //   // if(window.scroll(0, 0)){
+  //   window.scroll(0, 0);
+  //   // }
+  // };
   return (
     <div className="Home">
       <main>
